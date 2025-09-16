@@ -22,7 +22,7 @@ Este proyecto es un **generador aleatorio de estrofas de Rubén Darío** desarro
 
 ## Uso
 
-1. Ir al enlace `https://hyurielh.github.io/GeneradorFrases/` en un navegador moderno.  
+1. Ir al enlace `https://hyurielh.github.io/GeneradorPoemasRubenDario/` en un navegador moderno.  
 2. Al cargar la página, se mostrará un poema aleatorio.  
 3. Presionar el botón **Generar** para mostrar un nuevo poema aleatorio.  
 4. El scroll aparecerá automáticamente si el poema es demasiado largo.  
