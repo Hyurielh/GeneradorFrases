@@ -1,5 +1,5 @@
 let contenedor_poema = document.querySelector('.poema-contenedor');
-let titulo = document.querySelector('#titulo');
+let titulo = document.querySelector('#titulo-poema');
 let poema = document.querySelector('#poema');
 let libro = document.querySelector('#libro');
 let boton = document.querySelector('#generador');
