@@ -3,7 +3,7 @@
 ![HTML](https://img.shields.io/badge/HTML5-orange)
 ![CSS](https://img.shields.io/badge/CSS3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-![Última actualización](https://img.shields.io/badge/actualizado-2025--09--15-blue)
+![Última actualización](https://img.shields.io/badge/actualizado-2025--09--16-blue)
 ![Licencia](https://img.shields.io/badge/licencia-Educativa-green)
 
 Este proyecto es un **generador aleatorio de estrofas de Rubén Darío** desarrollado en **HTML, CSS y JavaScript**. Cada vez que se presiona el botón, se muestra un poema distinto de manera aleatoria, con un efecto de fade-in/fade-out y scroll estilizado para mejorar la legibilidad de poemas largos.
@@ -23,9 +23,10 @@ Este proyecto es un **generador aleatorio de estrofas de Rubén Darío** desarro
 ## Uso
 
 1. Ir al enlace `https://hyurielh.github.io/GeneradorPoemasRubenDario/` en un navegador moderno.  
-2. Al cargar la página, se mostrará un poema aleatorio.  
+2. Al cargar la página, se mostrará un poema aleatorio y el libro de donde fue extraído al final.  
 3. Presionar el botón **Generar** para mostrar un nuevo poema aleatorio.  
 4. El scroll aparecerá automáticamente si el poema es demasiado largo.  
+5. Un total de 8 poemas, se irán agregando más con el tiempo
 
 ---
 
