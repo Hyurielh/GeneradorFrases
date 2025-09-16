@@ -3,6 +3,7 @@ let titulo = document.querySelector('#titulo-poema');
 let poema = document.querySelector('#poema');
 let libro = document.querySelector('#libro');
 let boton = document.querySelector('#generador');
+let copiar = document.querySelector('.copiar');
 let lastIndex = -1;
 
 
@@ -15,6 +16,7 @@ async function leerPoemas() {
     arrayPoemas = poemas;
 
     boton.addEventListener('click', mostrarPoema);
+    copiar.addEventListener('click', copiarPoema);
     
     mostrarPoema();
 }
@@ -36,4 +38,16 @@ function mostrarPoema() {
         poema.textContent = arrayPoemas[indice].texto;
         libro.textContent = arrayPoemas[indice].libro;
     }, 500);
+}
+
+function copiarPoema() {
+    let textoACopiar = `${titulo.textContent}\n\n${poema.textContent}\n\n${libro.textContent}`;
+    navigator.clipboard.writeText(textoACopiar).then(() => {
+        copiar.textContent = '¡Copiado!';
+        setTimeout(() => {
+            copiar.textContent = 'Copiar';
+        }, 2000);
+    }).catch(err => {
+        console.error('Error al copiar al portapapeles: ', err);
+    });
 }
