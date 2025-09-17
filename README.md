@@ -26,7 +26,8 @@ Este proyecto es un **generador aleatorio de estrofas de Rubén Darío** desarro
 2. Al cargar la página, se mostrará un poema aleatorio y el libro de donde fue extraído al final.  
 3. Presionar el botón **Generar** para mostrar un nuevo poema aleatorio.  
 4. El scroll aparecerá automáticamente si el poema es demasiado largo.  
-5. Un total de 8 poemas, se irán agregando más con el tiempo
+5. Un total de 12 poemas, se irán agregando más con el tiempo
+6. Un boton para copiar el contenido
 
 ---
 
