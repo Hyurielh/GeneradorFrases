@@ -55,7 +55,9 @@
   transform: scale(0.95);
 }
 
-
+#titulo-poema {
+    margin-top: 40px;
+}
 /* Scroll estilizado para Chrome/Edge/Opera */
 .poema-contenedor::-webkit-scrollbar{
     width: 8px; /* grosor del scroll */
@@ -85,9 +87,11 @@
     font-size: 2rem;
     margin-bottom: 10px;
 }
-#titulo{
+.titulo{
     margin-bottom: 20px;
     font-size: 1.8rem;
+    text-align: center;
+    white-space: pre-wrap; /* Permite saltos de línea en el título */
 }
 /* Texto del poema */
 #poema{
